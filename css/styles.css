@@ -1,0 +1,406 @@
+html {
+    box-sizing:border-box;
+    background-color: #f0f4df;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+nav {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  a {
+    flex: 1;
+    color:rgb(240, 244, 223)
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+  }
+  
+  a:hover,
+  a:focus,
+  a:visited {
+    color:#f0f4df;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color:#f0f4df
+  }
+
+.headers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 100%;
+    font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-style: normal;
+  color:#f0f4df
+  
+}
+
+    .headers1 {
+        background-color: #567664;
+    width: auto;
+    padding: 50px;
+    margin: auto;
+    font-size: 25px;
+    text-align:center;
+    }
+
+    .headers2 {
+        background-color: #567664;
+        width: auto;
+        padding: 50px;
+        margin: auto;
+        font-size: 25px;
+        text-align: center;
+        
+    }
+
+    .headers3 {
+        background-color: #567664;
+        width: auto;
+    padding: 50px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    }
+
+    .headers4 {
+        background-color: #567664;
+        width: auto;
+        padding: 50px;
+        margin: auto;
+        font-size: 25px;
+        text-align: center;
+    }
+    .headers5 {
+        background-color: #567664;
+        width: auto;
+    padding: 50px;
+    margin: auto;
+    font-size: 25px;
+    text-align: center;
+    }
+
+.title {
+    font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 100px;
+  background-color: #567664;
+  text-align: center;
+  width: auto;
+  height: 100px;
+  padding: 50px;
+  margin:0 -8px; padding:0 8px;
+  color: #f0f4df;
+}
+
+.history {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #567664;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.historyinfo {
+    font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #567664;
+  color: #f0f4df;
+  text-align: center;
+  width: 1385px;
+  padding: 50px;
+  margin: 20px;
+}
+
+.characters {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #567664;
+    font-size: 20px;
+}
+
+.characters1 {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #567664;
+    text-align: center;
+    font-size: 50px;
+}
+
+.quick {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #567664;
+  text-align: center;
+  width: 500px;
+  padding: 50px;
+  margin: 20px;
+  margin: auto;
+  color:#f0f4df
+
+}
+
+.numbers {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #567664;
+    text-align: center;
+}
+
+.body {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal; 
+    margin:0 -8px; padding:0 8px;
+    background-color: #567664;
+    color: #f0f4df;
+    font-size: 20px;
+}
+
+    .bodyinfo {
+        margin:0 -8px; padding:0 8px;
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;  
+        background-color: #567664;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        max-width: 110%;
+        color:#567664
+    }
+
+.bodyinfo1 {
+    background-color:#f0f4df;
+    padding: 10px;
+  margin: 10%;
+  width: 80%;
+}
+
+.bodyinfo2 {
+    background-color:#f0f4df;
+    padding: 10px;
+    margin: 30%;
+    font-size: 10px;
+    width: 50%;
+}
+
+.bodyinfo3{
+    background-color:#f0f4df;
+    padding: 10px;
+    margin: 20px;
+    line-height: 2;
+    width: 130%;
+    font-size: 140%;
+}
+
+.display {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal; 
+    color: #567664;
+    font-size: 20px;
+}
+
+.displaytext {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal; 
+    color: #567664;
+}
+
+.overmatching {
+    margin-left: 420px;
+    font-size: 50px;
+}
+
+.fandh {
+display: flex;
+}
+    .flexographic {
+        margin-left: 120px;
+        font-size: 90px;
+
+    }
+
+    .housewarming {
+        font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+    }
+   
+ .dandf{
+    display: flex;
+    margin-left: 420px;
+   }
+    .Demographic {
+        font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+    
+    }
+
+    .flowcharting{
+        font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 50px;
+    }
+
+    .outsparkling {
+        font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size:100px ;
+    margin-left: 420px;
+    
+    }
+
+.housepacking {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 900px;
+}
+
+.experimentsinfo {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal; 
+    background-color: #567664;
+    margin:0 -8px; padding:0 8px;
+    color: #f0f4df; 
+}
+
+.experiments {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal; 
+    margin:0 -8px; padding:0 8px;
+    background-color: #567664;
+    color: #f0f4df;
+    font-size: 20px;
+}
+
+.ex1and2 {
+    position: relative; /* Set the parent to relative */
+    width: 300px; /* Width of the container */
+    height: 200px; /* Height of the container */
+    
+}
+
+.experiment1 {
+    display: inline-block; /* Necessary for transform to work properly */
+    transform: rotate(-40deg); /* Rotate the text by 45 degrees */
+    opacity: 50%;
+    font-size: 90px;
+}
+
+.experiment2 {
+    display: inline-block; /* Necessary for transform to work properly */
+    transform: rotate(40deg); /* Rotate the text by 45 degrees */
+    position: absolute; /* Position absolutely within the container */
+    font-size: 75px;
+    top: 20px; /* Position it 50px from the top */
+    left: 50px; /* Position it 50px from the left */
+    width: 150px; /* Width of the top div */
+    text-align: center; /* Center text */
+    
+}
+
+.ex3and4 {
+    position: relative; /* Set the parent to relative */
+    width: 300px; /* Width of the container */
+    height: 200px; /* Height of the container */
+    font-size: 80px;
+    left: 40%;
+}
+
+.experiment3 {
+    display: inline-block; /* Necessary for transform to work properly */
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+}
+
+.experiment4 {
+    display: inline-block; /* Necessary for transform to work properly */
+    position: absolute; /* Position absolutely within the container */
+    top: 50px; /* Position it 50px from the top */
+    left: 35px; /* Position it 50px from the left */
+    width: 100px; /* Width of the top div */
+    height: 100px; /* Height of the top div */
+    text-align: center; /* Center text */
+    line-height: 100px; /* Center vertically */
+    opacity: 50%;
+}
+
+.ex567 {
+    position: relative; /* Set the parent to relative */
+    width: 300px; /* Width of the container */
+    height: 200px; /* Height of the container */
+    font-size: 50px;
+    left: 65%;
+}
+
+.experiment5 {
+    display: inline-block; /* Necessary for transform to work properly */
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    position: relative;
+    top: 25%;
+    
+}
+.experiment6 {
+    display: inline-block; /* Necessary for transform to work properly */
+    position: absolute; /* Position absolutely within the container */
+    top: 50px; /* Position it 50px from the top */
+    left: 35px; /* Position it 50px from the left */
+    width: 100px; /* Width of the top div */
+    text-align: center; /* Center text */
+    opacity: 50%;
+}
+
+.experiment7 {
+    display: inline-block; /* Necessary for transform to work properly */
+    position: absolute; /* Position absolutely within the container */
+    top: 30px; /* Position it 50px from the top */
+    left: 20px; /* Position it 50px from the left */
+    width: 100px; /* Width of the top div */
+    text-align: center; /* Center text */
+    opacity: 50%; 
+}
+
+
+.experiment9 {
+    position: relative;
+    left: 651px;
+    top: 158px;
+    font-size: 100px;
+}
+
+.experiment10 {
+position: relative;
+left: 51%;
+font-size: 100px;
+}
